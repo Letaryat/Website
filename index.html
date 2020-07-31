@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Rubik+Mono+One&family=Titillium+Web:wght@300&display=swap" rel="stylesheet"> 
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>HEHE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="navbar">
+  <a href="#default" id="logo"><img id="kutas" src="logo.png"></a>
+    <div id="navbar-right">
+    <a href="#home">Home</a>
+    <a href="#about" data-offset="50">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+
+    </div>
+</div>
+
+<div id="home">
+  <p></p>
+</div>
+
+<div id="about" style="margin-top:500px;">
+    <h1 style="margin-top:80px;">O mnie</h1>
+    <p>Mam na imię Szymon i zajmuję sie amatorsko wkurwianiem ludzi oraz graniem w gry.</br>
+    Chodzę do Technikum Informatycznego a w wolnych chwilach albo gram w gry albo rozwijam swoje zainteresowania.</br>
+    Interesuję się grafiką komputerową, prostymi animacjami 2D (przykładowo intro,outro), tworzeniem amatorsko stron internetowych (HTML,CSS).</p>
+    
+  </p>
+
+  </div>
+  
+<div id="portfolio" style="margin-top:500px;">
+  <h1 style="margin-top:100px;">Portfolio</h1>
+  
+
+</div>
+
+  <div id="contact">
+    <h1 style="margin-top:100px;">Tu mnie mozesz zobaczyć!</h1>
+    <p style="text-align: center; padding: 50px;">Tutaj możesz mnie spotkać i się ze mną skontaktować</p>
+    <div id="hehe">
+      <a href="#home">Steam</a> </br>
+      <a href="#home">Pierdolnik.eu</a></br>
+      <a href="#home">Discord</a>
+
+    </div>
+    <p style="text-align: center; padding: 20px;">Email biznesowy: ChujMiWDupe@Seks.pl</p>
+    </div>
+
+    <footer>
+      <p id="stopka">Made by: Letaryat</p>
+      <p id="stopka">2020-2020</p>
+    </footer>
+
+
+
+<script>
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.padding = "30px 10px";
+        document.getElementById("kutas").style.width = "20%";
+        document.getElementById("kutas").style.opacity = "0.5";
+      } else {
+        document.getElementById("navbar").style.padding = "80px 10px";
+        document.getElementById("kutas").style.width = "100%";
+        document.getElementById("kutas").style.opacity = "1";
+      }
+    }
+    
+    </script>
+</body>
+
+</html>
