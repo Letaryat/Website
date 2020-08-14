@@ -1,80 +1,53 @@
 <!DOCTYPE html>
-<html>
-  <head>
-<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Rubik+Mono+One&family=Titillium+Web:wght@300&display=swap" rel="stylesheet"> 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<title>HEHE</title>
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-<div id="navbar">
-  <a href="#default" id="logo"><img id="kutas" src="logo.png"></a>
-    <div id="navbar-right">
-    <a href="#home">Home</a>
-    <a href="#about" data-offset="50">About</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#contact">Contact</a>
-
-    </div>
-</div>
-
-<div id="home">
-  <p></p>
-</div>
-
-<div id="about" style="margin-top:500px;">
-    <h1 style="margin-top:80px;">O mnie</h1>
-    <p>Mam na imię Szymon i zajmuję sie amatorsko wkurwianiem ludzi oraz graniem w gry.</br>
-    Chodzę do Technikum Informatycznego a w wolnych chwilach albo gram w gry albo rozwijam swoje zainteresowania.</br>
-    Interesuję się grafiką komputerową, prostymi animacjami 2D (przykładowo intro,outro), tworzeniem amatorsko stron internetowych (HTML,CSS).</p>
-    
-  </p>
-
-  </div>
-  
-<div id="portfolio" style="margin-top:500px;">
-  <h1 style="margin-top:100px;">Portfolio</h1>
-  
-
-</div>
-
-  <div id="contact">
-    <h1 style="margin-top:100px;">Tu mnie mozesz zobaczyć!</h1>
-    <p style="text-align: center; padding: 50px;">Tutaj możesz mnie spotkać i się ze mną skontaktować</p>
-    <div id="hehe">
-      <a href="#home">Steam</a> </br>
-      <a href="#home">Pierdolnik.eu</a></br>
-      <a href="#home">Discord</a>
-
-    </div>
-    <p style="text-align: center; padding: 20px;">Email biznesowy: ChujMiWDupe@Seks.pl</p>
+<html lang="eng">
+    <head>
+      <link rel="icon" href="icons/icon.png">
+        <title>Letaryat - Index</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <div class="header">
+        <a href="index.html"><img href="index.html" id="logo" src="log2.png"></a>
     </div>
 
-    <footer>
-      <p id="stopka">Made by: Letaryat</p>
-      <p id="stopka">2020-2020</p>
-    </footer>
 
-
-
-<script>
-    window.onscroll = function() {scrollFunction()};
+        <div id="ramka">
+        <div class="page-header">
+        <h1>Welcome to my website</h1>
+        </div>
+        <div class="container-fluid bg-2 text-center">
+            <h2>About me</h2>
+            <p>On the internet im known by the name Letaryat. I'm interested in creating some unprofessionally graphic designing (some banners, some easy animations 2D) and doing some website coding and designing (also unprofessionally). I also try to learn programming but I'm still a beginner. Sometimes in my free time I try to edit videos for my youtube channel. I'm still learning in school so everything what I do I make in free time. </p>
+        
+          </div>
+          <div id="col">
+            <div class="col-sm-4">
+              <h3><a href="social.html">Social Media</a></h3>
+                <p>Click here to find me on the crazy world of the internet!</p>
     
-    function scrollFunction() {
-      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("navbar").style.padding = "30px 10px";
-        document.getElementById("kutas").style.width = "20%";
-        document.getElementById("kutas").style.opacity = "0.5";
-      } else {
-        document.getElementById("navbar").style.padding = "80px 10px";
-        document.getElementById("kutas").style.width = "100%";
-        document.getElementById("kutas").style.opacity = "1";
-      }
-    }
+              </div>
+              <div class="col-sm-4">
+                <h3><a href="Works.html">My works</a></h3>
+                <p>Here you can find what I made.</p>
     
-    </script>
-</body>
+              </div>
+              <div class="col-sm-4">
+                <h3><a href="contact.html">Contact</a></h3>       
+                <p>If you want to ask me something, you will find informations right here!</p>
+    
+              </div>
+        </div>
+        </div>
+
+        <div id="footer">Made by Letaryat</br>
+        </div>  
+
+
+    </body>
+
 
 </html>
