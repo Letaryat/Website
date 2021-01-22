@@ -1,0 +1,112 @@
+#frame{
+    width: 100%;
+    float:left;
+}
+#frame img{
+    width: 15%;
+}
+#tlo{
+    width: 100%;
+    float:left;
+}
+#tlo img{
+    width: 15%;
+}
+
+#default{
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgb(36,48,64);
+    background: linear-gradient(90deg, rgba(36,48,64,1) 0%, rgba(34,34,49,1) 100%); 
+}
+#lato{
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgb(110,79,27);
+    background: linear-gradient(90deg, rgba(110,79,27,1) 0%, rgba(144,91,14,1) 100%); 
+}
+#midnight{
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgb(34,31,52);
+    background: linear-gradient(90deg, rgba(34,31,52,1) 0%, rgba(20,19,102,1) 100%); 
+}
+#stal{
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgb(61,66,75);
+    background: linear-gradient(90deg, rgba(61,66,75,1) 0%, rgba(50,60,72,1) 100%); 
+}
+#kosmos{
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgb(82,38,92);
+    background: linear-gradient(90deg, rgba(82,38,92,1) 0%, rgba(105,20,97,1) 100%); 
+}
+#dark{
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgb(20,20,20);
+    background: linear-gradient(90deg, rgba(20,20,20,1) 0%, rgba(10,10,10,1) 100%); 
+}
+#gold{
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgb(143,115,54);
+    background: linear-gradient(90deg, rgba(143,115,54,1) 0%, rgba(37,28,12,1) 100%); 
+}
+#winter{
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgb(68,74,108);
+    background: linear-gradient(90deg, rgba(68,74,108,1) 0%, rgba(28,44,59,1) 100%); 
+
+}
+
+.kolka{
+    padding-left: 10px;
+    float:left;
+    text-align: center;
+    width: 25%;
+
+}
+.kolka:hover{
+    cursor:pointer;
+}
+#tlo img{
+    cursor: pointer;
+}
+#frame img{
+    cursor:pointer;
+}
+#kuleczka{
+    overflow-x:auto;
+    height: 100px;
+}
+#guzior{
+    border: none;
+}
