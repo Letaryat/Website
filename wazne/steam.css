@@ -110,3 +110,7 @@
 #guzior{
     border: none;
 }
+#imgLogo{
+    object-fit: cover;
+}
+
